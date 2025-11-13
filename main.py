@@ -134,7 +134,7 @@ def run():
     plot_nav_and_weights(perf['nav'], backtest_res['weights'], OUTPUT_DIR)
     logger.info("Pipeline completed. All artifacts saved to output/")
 
-    # Also export CVaR summary (per rebalance date)
+    #输出CVAR
     cvar_resid_df = pd.DataFrame({d: intermediates[d]['cvar_residual'] for d in intermediates}).T.sort_index()
     cvar_resid_df.to_csv(os.path.join(OUTPUT_DIR, "cvar_residuals_by_date.csv"))
     if any(intermediates[d]['cvar_asset_hist'] is not None for d in intermediates):
