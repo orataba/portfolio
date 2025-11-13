@@ -1,0 +1,15 @@
+2025-11-12 23:32:36,142 [INFO] Loading data...
+2025-11-12 23:32:36,150 [INFO] Data loaded. macro shape (112, 10), assets shape (112, 10)
+2025-11-12 23:32:36,150 [INFO] Begin rolling pipeline with window=105. Total dates: 112
+2025-11-12 23:32:36,150 [INFO] Rebalance 2025-02; training from 2016-05 to 2025-01
+2025-11-12 23:32:36,178 [INFO] Rebalance 2025-03; training from 2016-06 to 2025-02
+2025-11-12 23:32:36,201 [INFO] Rebalance 2025-04; training from 2016-07 to 2025-03
+2025-11-12 23:32:36,225 [INFO] Rebalance 2025-05; training from 2016-08 to 2025-04
+2025-11-12 23:32:36,249 [INFO] Rebalance 2025-06; training from 2016-09 to 2025-05
+2025-11-12 23:32:36,275 [INFO] Rebalance 2025-07; training from 2016-10 to 2025-06
+2025-11-12 23:32:36,300 [INFO] Rebalance 2025-08; training from 2016-11 to 2025-07
+2025-11-12 23:32:36,328 [INFO] Saving outputs...
+2025-11-12 23:32:36,339 [INFO] Saved 7 weight entries and intermediates.
+2025-11-12 23:32:36,339 [INFO] Running backtest...
+2025-11-12 23:32:36,346 [INFO] Backtest performance: annual_return=0.2733, annual_vol=0.1315, sharpe=2.0790, mdd=-3.5051%
+2025-11-12 23:32:36,594 [INFO] Pipeline completed. All artifacts saved to output/
